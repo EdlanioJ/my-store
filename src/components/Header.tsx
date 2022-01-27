@@ -6,8 +6,8 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 w-full">
       <div className="flex flex-grow items-center justify-between bg-blue-800 p-1 py-2">
-        <div className="mt-2 flex flex-grow cursor-pointer items-center sm:flex-grow-0">
-          <Image height={48} width={48} src="/img/logo.jpeg" />
+        <div className="flex flex-grow cursor-pointer items-center sm:flex-grow-0">
+          <ShoppingBagIcon width={48} height={48} className="text-white" />
           <h1 className="ml-2 text-xl font-bold text-white">Kimbo Space</h1>
         </div>
 
