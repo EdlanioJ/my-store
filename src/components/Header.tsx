@@ -7,8 +7,8 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 w-full">
       <div className="flex flex-grow items-center justify-between bg-blue-800 p-1 py-2">
         <div className="mt-2 flex flex-grow cursor-pointer items-center sm:flex-grow-0">
-          <ShoppingBagIcon height={48} className="text-white" />
-          <h1 className="text-xl font-bold text-white ">Minha Loja</h1>
+          <Image height={48} width={48} src="/img/logo.jpeg" />
+          <h1 className="ml-2 text-xl font-bold text-white">Kimbo Space</h1>
         </div>
 
         <div className="flex items-center space-x-2 whitespace-nowrap text-xs text-white">
@@ -17,10 +17,10 @@ const Header: React.FC = () => {
               width={40}
               height={40}
               className="mr-2 rounded-full"
-              src="https://github.com/EdlanioJ.png"
+              src="/img/user.jpg"
             />
             <div className="link pl-2">
-              <p className="hover:underline">Edlânio Júlio</p>
+              <p className="hover:underline">Benedito Kavungo</p>
               <p className="font-extrabold md:text-sm">Contas & Lista</p>
             </div>
           </div>

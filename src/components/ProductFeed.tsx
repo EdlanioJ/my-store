@@ -18,7 +18,7 @@ const ProductFeed: React.FC<ProductFeedType> = ({ products }) => {
       />
       <div className="md:col-span-2">
         {products.slice(4, 5).map((product) => (
-          <Product key={product.id} product={product} />
+          <Product key={product.id} product={product} isRow />
         ))}
       </div>
       {products.slice(5, products.length).map((product) => (
