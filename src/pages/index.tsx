@@ -34,7 +34,7 @@ const Home: React.FC<HomeProps> = ({ products }) => {
         twitter={{
           cardType: 'summary_large_image',
           site: 'https://my-store-azure.vercel.app/',
-          handle: '@kumbu_space',
+          handle: '@kumbo_space',
         }}
         defaultTitle="Kumbu Space"
       />
