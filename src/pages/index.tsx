@@ -11,7 +11,7 @@ type HomeProps = {
 }
 const Home: React.FC<HomeProps> = ({ products }) => {
   return (
-    <div className="h-screen">
+    <div className="h-screen bg-gray-900">
       <NextSeo
         title="Kimbo Space"
         description="Tenha a melhor experiencia com as suas compras e vendas"
@@ -44,7 +44,7 @@ const Home: React.FC<HomeProps> = ({ products }) => {
       </Head>
 
       <Header />
-      <main className="mx-auto max-w-screen-2xl">
+      <main className="mx-auto max-w-screen-2xl bg-gray-800">
         <Banner />
         <ProductFeed products={products} />
       </main>
